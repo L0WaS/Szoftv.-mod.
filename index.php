@@ -34,8 +34,6 @@
 	
 	if(file_exists("pages/" . $page . "/" . $page . ".php"))
 		include "pages/" . $page . "/" . $page . ".php";
-	else
-		include '404.php';
 ?>
 
 </body>

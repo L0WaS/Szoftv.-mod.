@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	$('body').find('img[src$="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]').remove();
 	
     $("#gomb").click(function(){
         //alert("meg lett nyomva");
