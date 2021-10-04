@@ -10,7 +10,7 @@ Start-up-unk célja egy olyan mindenki számára elérhető platform, mely segí
 - a rendszernek saját adatbázissal kell rendelkeznie amit a weboldal is elér
 - az adatbázisban tárolni kell a felhasználó:
     1. nevét
-    2. jelszavát (nyilvánnemígy)
+    2. jelszavát 
 - továbbá a hirdetés címét, leírását és a feladó telefonszámát
 - a weboldalon a felhasználó számára elérhetőnek kell lennie:
     1. a fórumnak
