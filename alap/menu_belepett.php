@@ -36,23 +36,3 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-<!--
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    
-    <ul class="nav navbar-nav">
-      <li class="active"> <a href="#">Lap 1</a></li>
-      
-      <li><a href="#">Lap 2</a></li>
-	  <li><a href="#">Lap 3</a></li>
-
-	  
-	  
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href=""id = "logoutgomb"><span class="glyphicon glyphicon-user"></span> kilépés</a></li>
-      
-    </ul>
-  </div>
-</nav>
--->

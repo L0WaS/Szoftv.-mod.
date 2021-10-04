@@ -14,13 +14,13 @@ $sql = "INSERT INTO szemely
 VALUES (NULL,'$felhasznalonev', '$jelszo', 0)";
 
 if (mysqli_query($conn, $sql)) {
-    echo 1;//sikerult felvinni az uj felhasználót
+    echo 1;
 } else {
-    echo 0;//adatb hiba
+    echo 0;
 }
 }
 else
-	echo 2;//a felhasználó már létezik
+	echo 2;
 
 mysqli_close($conn);
 ?>

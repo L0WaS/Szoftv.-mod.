@@ -11,5 +11,5 @@ Célunk egy olyan fórum létrehozása, melyhez bárki szabadon csatlakozhat és
 
 ##	Követelménylista
 *	A weboldal reszponzivitásának eléréséhez bootstrapet használjuk, így a fórum bármilyen eszközön elérhető lesz (telefon, tv, pc, tablet) 
-*	Olyan platform létrehozása, ahol a felhasználók valós időben tudják megosztani/törölni tartalmaikat, illetve máséra válaszolni tudjanak
+*	Olyan platform létrehozása, ahol a felhasználók valós időben tudják megosztani tartalmaikat, amelyen elérhetik egymást
 *	Adminok, akik korlátlan jogosultsággal bírnak és felügyelik az oldal működését.
