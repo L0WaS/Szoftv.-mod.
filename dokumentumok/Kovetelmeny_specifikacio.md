@@ -31,4 +31,6 @@ Célunk egy olyan fórum létrehozása, melyhez bárki szabadon csatlakozhat és
 *	Egy valós idejű fórum
 *	Saját profil létrehozhatósága
 *	Elcserélni/elajándékozni kívánt étel megosztása
+*	Már nem aktuális hirdetések törlése
+*	Felhasználók értékelése
 
