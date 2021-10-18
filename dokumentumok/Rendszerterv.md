@@ -3,20 +3,23 @@
 
 ## 1. Bevezetés
 
-Start-up-unk célja egy olyan mindenki számára elérhető platform, mely segítséget nyújt a kollégistáknak, valamint csökkenti a pazarlást.
+Start-up-unk célja egy olyan mindenki számára elérhető platform, mely segítséget nyújt a kollégistáknak. Emelett, egy olyan csere/ajándékozás célú
+felületet szeretnénk biztosítani, amivel hozzájárulhatunk az ételpazarlás csökkentéséhez.
 
 ## 2. A rendszer céljai
 
 - a rendszernek saját adatbázissal kell rendelkeznie amit a weboldal is elér
 - az adatbázisban tárolni kell a felhasználó:
     1. nevét
-    2. jelszavát 
+    2. jelszavát
+    3. értékelését 
 - továbbá a hirdetés címét, leírását és a feladó telefonszámát
 - a weboldalon a felhasználó számára elérhetőnek kell lennie:
     1. a fórumnak
     2. főoldalnak
+    3. többi felhasználó profiljának
 - a weboldal fórumának elérhetőnek kell lenni minden felhasználó számára
-- minden felhasználónak lehetőséget kell adni a hirdetés feladásra (bejelentkezés után)
+- minden felhasználónak lehetőséget kell adni a hirdetés feladásra (bejelentkezés után), illetve a hirdetés törlésére
 
 ## 3. Adatbázis terv
 
@@ -39,6 +42,8 @@ Jelen projekten 4 hallgató dolgozik:
 - 2021.09.20. - 2021.09.27. : Rendszerterv elkészítése, projekt elkezdése
 - 2021.09.27. - 2021.10.04. : Projekt befejzése
 - 2021.10.04. : Projekt bemutatása, értékelés
+- 2021.10.11.-2021.10.18. : ötletelés a projekt továbbfejlesztéséhez
+- 2021.10.18.2021.10.25. : Követelmény- és Funkcionális specifikáció, valamint a Rendszerterv bővítése, kiegészítése
 
 ## 6. Mérföldkövek
 
