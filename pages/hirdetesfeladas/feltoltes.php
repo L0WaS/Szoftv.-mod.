@@ -1,6 +1,6 @@
 <?php 
 	include "../../alap/kapcsolat.php";
-	//$bevitel1=$_POST["bevitel1"]; // felhn
+	//$bevitel1=$_POST["bevitel1"];
 	$bevitel2=$_POST["bevitel2"]; 
 	$bevitel3=$_POST["bevitel3"]; 
 	$bevitel4=$_POST["bevitel4"]; 
