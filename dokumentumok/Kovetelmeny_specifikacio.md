@@ -9,7 +9,7 @@ Az egyetemre járók többsége kollégista. Vannak, akik a helyi menzán étkez
 A megfelelő fórumok hiánya miatt az emberek az így megmaradt ételeket nem tudják elcserélni, ezért az ételek nagy része pocsékba megy, mert senki sem fog szobáról szobára kopogtatni a megmaradt egy tányér húslevesével. Erre egy egyszerűbb megoldás lehet, ha csere/ajándék szándékát egy fórumon jelzi és az erre igényt tartó egyén jelentkezik.
 
 ## Vágyálomrendszer leírása
-Célunk egy olyan fórum létrehozása, melyhez bárki szabadon csatlakozhat és megoszthatja cserélni/ajándékozni kívánt elemózsiáját. Emellett szeretnénk, ha kollégiumi kapcsolatok/közösségek alakulnának ki. Nem utolsó sorban ezen fórum létrehozásával a környezetszennyezés és ételpazarlás ellen is harcolnánk. 
+Célunk egy olyan fórum létrehozása, melyhez bárki szabadon csatlakozhat és megoszthatja cserélni/ajándékozni kívánt elemózsiáját. Emellett szeretnénk, ha kollégiumi kapcsolatok/közösségek alakulnának ki. Nem utolsó sorban ezen fórum létrehozásával a környezetszennyezés és ételpazarlás ellen is harcolnánk. Mindezt úgy szeretnénk, hogy a hátrányos helyzetűek is kényelmesen tudják használni a weboldalt.
 
 ## A jelenlegi üzleti folyamatok modellje
 *	Nincs erre kimondottan specializálódott fórum 
@@ -33,4 +33,5 @@ Célunk egy olyan fórum létrehozása, melyhez bárki szabadon csatlakozhat és
 *	Elcserélni/elajándékozni kívánt étel megosztása
 *	Már nem aktuális hirdetések törlése
 *	Felhasználók értékelése
+*	Akadálymentesítés
 
