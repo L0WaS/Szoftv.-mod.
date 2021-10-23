@@ -15,7 +15,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li ><a href="./hirdetesfeladas"><span class="menuszoveg">Hirdetésfeladás</span></a></li>
-		<li ><a href="./hirdetesek"><span class="menuszoveg">Hirdetések</span></a></li>
+		<li ><a href="./hirdetesek2"><span class="menuszoveg">Hirdetések</span></a></li>
 		<?php
 	  if ($_SESSION["login_rang"]==1)
 		  

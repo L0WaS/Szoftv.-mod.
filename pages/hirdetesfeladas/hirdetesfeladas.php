@@ -17,14 +17,14 @@ if (isset($_SESSION["login_nev"]))
 		</div>
 		<div class="col-sm-6">
 			<center>
-				<!--<div style="margin-top:30px">Kép beszúrás:<br><input style=" margin-top: 10px; margin-bottom: 10px; " type="file" id="bevitel9" name="bevitel9"></div>-->
-				<div>Hirdetésben megjelenő név<br><input style="width:50%" type="text" id="bevitel4" class="szovegmezo"></div>
-				<div style="margin-top:30px">Elérhetőség<br><input style="width:50%" type="text" id="bevitel5" class="szovegmezo"></div>
+				<div style="margin-top:30px">Kép beszúrás:<br><input style=" margin-top: 10px; margin-bottom: 10px; " type="file" id="bevitel6" name="bevitel6"></div>
+				<!--<div>Hirdetésben megjelenő név<br><input style="width:50%" type="text" id="bevitel4" class="szovegmezo"></div>
+				<div style="margin-top:30px">Elérhetőség<br><input style="width:50%" type="text" id="bevitel5" class="szovegmezo"></div>-->
 				
 				
-				 <input style="margin-top:30px" type="submit" value="Véglegesítés" id="gomb">
+				<input style="margin-top:30px" type="submit" value="Véglegesítés" id="gomb">
 
-				  <div id="siker"></div>
+				<div id="siker"></div>
 				
 				
 				

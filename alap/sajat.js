@@ -57,7 +57,9 @@ $("#reg_jelszo_megegyszer").keypress(function (e) {
 		 var adatok=
 		 {
 			 reg_felh:$("#reg_felh").val(),
-			 reg_jelszo:$("#reg_jelszo").val()
+			 reg_jelszo:$("#reg_jelszo").val(),
+			 reg_teljes_nev:$("#reg_teljes_nev").val(),
+			 reg_elerhetoseg:$("#reg_elerhetoseg").val()
 		 }
 		 $.post("alap/felhasznalo_felvitel.php",adatok,function(eredmeny){
 			//alert(eredmeny); 

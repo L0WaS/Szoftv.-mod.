@@ -12,6 +12,7 @@ $result = mysqli_query($conn, $sql);
 if (mysqli_num_rows($result) > 0) {
     // output data of each row
    $row = mysqli_fetch_assoc($result);
+   $_SESSION["login_id"]=$row["szemely_id"];
    $_SESSION["login_nev"]=$row["szemely_felh"];
    $_SESSION["login_rang"]=$row["szemely_rang"];
    print 1;
