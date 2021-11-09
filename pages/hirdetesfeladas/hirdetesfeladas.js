@@ -14,15 +14,6 @@ $(document).ready(function(){
 			
 		}
 		
-		$.post("pages/hirdetesfeladas/feltoltes.php",adatok,function(eredmeny){
-			//alert("Data: " + eredmeny);
-			if (eredmeny==1)
-			{
-				$("#siker").html("Sikeres adatfelvitel!!!");
-			}
-			else
-			$("#siker").html("Sikertelen adatfelvitel!!!");	
-		});
 		
 		var file_data=$("#bevitel6").prop("files")[0];
 		if (adatok.bevitel6!="")
