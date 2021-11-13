@@ -9,7 +9,7 @@ $(document).ready(function(){
 		var szoveg="";
 		
 		
-		for (var i=1;i<tomb.length;i++)
+		for (var i=0;i<tomb.length;i++)
 		{
 			if ((i-1)%3==0)	
 				szoveg+='<div class="row">';
@@ -39,8 +39,8 @@ $(document).ready(function(){
 				var tomb=JSON.parse(eredmeny);
 				var modalisszoveg="";
 			
-				modalisszoveg+='<center style="font-size:150%"><b>Név:</b> '+tomb[0].aru_nev;
-				modalisszoveg+='<br><b>E-mail:</b> '+tomb[0].leiras;
+				modalisszoveg+='<center style="font-size:150%"><b>Cím:</b> '+tomb[0].aru_nev;
+				modalisszoveg+='<br><b>Leírás:</b> '+tomb[0].leiras;
 				modalisszoveg+='<br><b>Eladó neve:</b> '+tomb[0].szemely_nev;
 				modalisszoveg+='<br><b>Telefonszám:</b> '+tomb[0].szemely_elerhetoseg+'</center>';
 				modalisszoveg+='<br><center><img src="img/'+tomb[0].aru_kep+'" style="height:400px;padding-top: 0px; " alt="Nincs feltöltött kép"></center>';

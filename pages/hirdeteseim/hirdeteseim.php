@@ -1,5 +1,4 @@
 <div ng-app="myApp" ng-controller="customersCtrl">
-s
 <table>
   <tr ng-repeat="x in names">
     <td>{{ x.aru_nev }}</td>
