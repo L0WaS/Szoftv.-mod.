@@ -165,13 +165,13 @@ a legfrissebbek is szerepelnek.
 Amennyiben kevés lenne a 000webhost ingyenes csomogja akkor elő lehet
 fizetni egy jobb csomagra, de ajánlott helyette egy magyar szerver használata, 
 mint például:
-    - Hostinger
-    - Elin.hu
-    - Rackforest
-    - Nethely
-    - Magyarhosting
-    - Tárhely.eu
-    - Tárhelypark
+- Hostinger
+- Elin.hu
+- Rackforest
+- Nethely
+- Magyarhosting
+- Tárhely.eu
+- Tárhelypark
 
 
 ##  Fejlesztői eszközök
