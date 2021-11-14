@@ -37,8 +37,8 @@ $(document).ready(function(){
 			szoveg+='<td><img class="filmkep" style="height:150px" alt="Nincs feltöltött kép" src="img/'+tomb[i].aru_kep+'" ></td>';
 			szoveg+='<td>'+tomb[i].aru_nev+'</td>';
 			szoveg+='<td>'+tomb[i].leiras+'</td>';
-			szoveg+='<td>'+tomb[i].hirdeto_neve+'</td>';
-			szoveg+='<td>'+tomb[i].elerhetoseg+'</td>';
+			szoveg+='<td>'+tomb[i].szemely_nev+'</td>';
+			szoveg+='<td>'+tomb[i].szemely_elerhetoseg+'</td>';
 			szoveg+='</tr>';
 		}
  		szoveg+='</tbody>';

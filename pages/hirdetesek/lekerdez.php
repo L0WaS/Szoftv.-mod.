@@ -2,7 +2,7 @@
 include "../../alap/kapcsolat.php"; 
  
  
-$sql = "SELECT * FROM aru";
+$sql = "SELECT * FROM aru, szemely WHERE aru.szemely_id=szemely.szemely_id;";
 $result = mysqli_query($conn, $sql);
 
 $kimenet=array();
