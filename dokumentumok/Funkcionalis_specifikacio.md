@@ -86,8 +86,15 @@ tartalmaikat, amelyen elérhetik egymást
 
 ##  Képernyő tervezete
 
-A weboldalra való belépéskor a főoldalon találjuk magunkat. Itt találhatóak meg 
-a különböző menüpontok mint amiket felsoroltunk a "Használati esetek" cím alatt.
+A weboldalra való belépéskor a főoldalon találjuk magunkat. Itt találhatóak meg:
+* Regisztráció 
+* Belépés
+* Hirdetések 
+* Főoldal
+* Hirdetésfeladás
+* Hirdetéseim.
+
+
 Maga a weboldal így néz ki :
 
 Gépi nézeti hirdetések:
