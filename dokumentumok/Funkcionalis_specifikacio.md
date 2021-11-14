@@ -50,9 +50,10 @@ címét és leírását.
 ##	Jelenlegi helyzet leírása
 
 A megfelelő fórumok hiánya miatt az emberek az így megmaradt ételeket nem tudják
-elcserélni, ezért azok nagy része pocsékba megy, mert senki sem fog szobáról szobára
-kopogtatni a megmaradt egy tányér húslevesével. Erre egy egyszerűbb megoldás lehet,
-ha csere/ajándék szándékát egy fórumon jelzi és az erre igényt tartó egyén jelentkezik.
+elcserélni, ezért azok nagy része pocsékba megy, mert senki sem fog szobáról 
+szobára kopogtatni a megmaradt egy tányér húslevesével. Erre egy egyszerűbb megoldás
+lehet, ha csere/ajándék szándékát egy fórumon jelzi és az erre igényt tartó egyén
+jelentkezik.
 
 
 ##	Vágyálomrendszer leírása
