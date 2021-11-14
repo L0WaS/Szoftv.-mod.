@@ -1,12 +1,14 @@
 # Rendszerterv
 
 
-## 1. Bevezetés
+##  Bevezetés
 
-Start-up-unk célja egy olyan mindenki számára elérhető platform, mely segítséget nyújt a kollégistáknak. Emelett, egy olyan csere/ajándékozás célú
-felületet szeretnénk biztosítani, amivel hozzájárulhatunk az ételpazarlás csökkentéséhez.
+Start-up-unk célja egy olyan mindenki számára elérhető platform, mely segítséget nyújt
+a kollégistáknak. Emelett, egy olyan csere/ajándékozás célú felületet szeretnénk 
+biztosítani, amivel hozzájárulhatunk az ételpazarlás csökkentéséhez.
 
-## 2. A rendszer céljai
+
+##  A rendszer céljai
 
 - a rendszernek saját adatbázissal kell rendelkeznie amit a weboldal is elér
 - az adatbázisban tárolni kell a felhasználó:
@@ -19,13 +21,42 @@ felületet szeretnénk biztosítani, amivel hozzájárulhatunk az ételpazarlás
     2. főoldalnak
     3. többi felhasználó profiljának
 - a weboldal fórumának elérhetőnek kell lenni minden felhasználó számára
-- minden felhasználónak lehetőséget kell adni a hirdetés feladásra (bejelentkezés után), illetve a hirdetés törlésére
+- minden felhasználónak lehetőséget kell adni a hirdetés feladásra (bejelentkezés után),
+ illetve a hirdetés törlésére
+ 
 
-## 3. Adatbázis terv
+##  Adatbázis terv
 
-![adatb](adatb.png "Adatbázis")
+![adatb](img/adatb.png "Adatbázis")
 
-## 4. Projekt terv
+
+##  Az adatbázist legeneráló sql script:
+
+```sql
+
+CREATE TABLE `aru` (
+  `aru_id` int(11) NOT NULL,
+  `szemely_id` int(11) NOT NULL,
+  `hirdeto_neve` varchar(100) COLLATE utf8_hungarian_ci NOT NULL,
+  `aru_nev` varchar(30) COLLATE utf8_hungarian_ci NOT NULL,
+  `leiras` varchar(200) COLLATE utf8_hungarian_ci NOT NULL,
+  `aru_kep` varchar(100) COLLATE utf8_hungarian_ci NOT NULL,
+  `elerhetoseg` varchar(100) COLLATE utf8_hungarian_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+
+CREATE TABLE `szemely` (
+  `szemely_id` int(11) NOT NULL,
+  `szemely_felh` varchar(50) COLLATE utf8_hungarian_ci NOT NULL,
+  `szemely_jelszo` varchar(50) COLLATE utf8_hungarian_ci NOT NULL,
+  `szemely_nev` varchar(100) COLLATE utf8_hungarian_ci NOT NULL,
+  `szemely_elerhetoseg` varchar(100) COLLATE utf8_hungarian_ci NOT NULL,
+  `szemely_rang` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+
+```
+
+
+##  Projekt terv
 
 Jelen projekten 4 hallgató dolgozik:  
 | Név             | Szak                  |
@@ -35,17 +66,33 @@ Jelen projekten 4 hallgató dolgozik:
 | Tóth Ferenc     | Programtervező informatikus|
 | Vékony Orsolya  | Programtervező informatikus|
 
-## 5. Ütemterv
+
+##  Ütemterv
 
 - 2021.09.06. - 2021.09.13. : csapatok kialakítása, ötletelés
-- 2021.09.13. - 2021.09.20. : Követelmény- és Funkcionális specifikáció elkészítése
-- 2021.09.20. - 2021.09.27. : Rendszerterv elkészítése, projekt elkezdése
-- 2021.09.27. - 2021.10.04. : Projekt befejzése
-- 2021.10.04. : Projekt bemutatása, értékelés
-- 2021.10.11.-2021.10.18. : ötletelés a projekt továbbfejlesztéséhez
-- 2021.10.18.2021.10.25. : Követelmény- és Funkcionális specifikáció, valamint a Rendszerterv bővítése, kiegészítése
 
-## 6. Mérföldkövek
+- 2021.09.13. - 2021.09.20. : Követelmény- és Funkcionális specifikáció elkészítése
+
+- 2021.09.20. - 2021.09.27. : Rendszerterv elkészítése, projekt elkezdése
+
+- 2021.09.27. - 2021.10.04. : Projekt befejzése
+
+- 2021.10.04. : Projekt bemutatása, értékelés
+
+- 2021.10.11. - 2021.10.18. : Ötletelés a projekt továbbfejlesztéséhez
+
+- 2021.10.18. - 2021.10.25. : Követelmény- és Funkcionális specifikáció, valamint a Rendszerterv 
+bővítése, kiegészítése
+
+- 2021.10.25. - 2021.11.01. : Követelmény- és Funkcionális specifikáció, valamint a Rendszerterv 
+bővítése, kiegészítése
+
+- 2021.11.01. - 2021.11.08. : Fejlesztési szünet
+
+- 2021.11.08. - 2021.11.15. : Demó elkészítése
+
+
+##  Mérföldkövek
 
 A projekt elkészítésének mérföldkövei:
 - Trello regisztráció, ismerkedés a felülettel
@@ -56,39 +103,105 @@ A projekt elkészítésének mérföldkövei:
 - Rendszerterv elkezdése
 - Projekt fejlesztésének elkezdése
 - Projekt fejlesztése
+- Követelmény specifikáció bővítése
+- Funkcionális specifikáció bővítése
+- Rendszerterv bővítése
+- Demó Befejezése
 
-## 7. Üzleti szereplők
+
+##  Üzleti szereplők
 
 - weblapot kezelő adminok
 - weblapot látogató/használó felhasználók
 
 
-## 8. Funkcioális követelmények
+##  Funkcioális követelmények
 
 - egyszerűen kezelhető, mindenki számára elérhető platform
 - jól átlátható felület
 - jól átlátható adatbázis kezelés
 - könnyű hirdetés feladás
 
-## 9. Nem funcionális követelmények
+
+##  Nem funcionális követelmények
 
 - esztétikus, jól elrendezett weboldal
 - megfelelő színek, betűméretek használata
 
-## 10. Funkcionális terv
+
+##  Funkcionális terv
 
 - a weboldal célja a kollégiumi ételpazarlás lecsökkentése
 - az ételek cseréje/adományozása
 
+## Telepítési terv
 
-## 11. Fejlesztői eszközök
+### Felhasználói oldal
+
+Szükséges:
+
+- Internet kapcsolat
+- Telepített operációs rendszer
+- Telepített webböngésző
+- Saját webtárhely bérlése
+- Saját domain cím bérlése
+
+### A cég részéről
+
+- XAMPP feltelepítése
+- Webtárhelyen a szükséges konfigurációk beállítása
+
+XAMPP:
+- Ingyenes webszerver csomag
+- Tartalmazza a MySQL adatbázis szervert
+- Apache webszervert tartalmaz
+- Tartalmazza a PHP és Perl nyelvek végrehajtó rendszereit
+- Nyílt forráskódú(Open source)
+- Ideális kis és közepes vállalatoknak
+- Integrált keretrendszer
+- A csomag tartalmaz mindent, ami a webes alkalmazásokhoz szükséges lehet
+
+
+Webtárhely:
+- Ingyenes webtárhelynek a 000webhostot ajánljuk.
+- A 000webhostnál választható PHP-verziók vannak, köztük naprakészen 
+a legfrissebbek is szerepelnek.
+- Mindemellett a 000webhostnál alapból telepítve van a MySQL adatbázis
+- Tehát az ingyenesek közül inkább a 000webhostot javasoljuk
+
+
+##  Fejlesztői eszközök
 
 - PHP
-- MySQL
+- XAMPP
+    - Apache
+    - MySQL
 - JavaScript
 - CSS
+- GDPR
+- A szabványhozó szervezetek által eddig bevezetett szabványok betartása
+    - Például néhány nagyobb szervezet: 
+        - W3C
+        - ECMA
+        - IETF
+        - WHATWG
 
 
-## 12. Biztonság
+##  Biztonság
 
 Az adatbázisban tárolt felhasználói jelszavak MD5-ös titkosítással rendelkeznek. 
+
+
+## Financiális követelmények
+
+A weboldal ára tartalmazza:
+- a szerver bérlést
+- a fejlesztők bérét
+- folyamatos ügyfélszolgálatot
+- 0-24-es support szolgáltatást a hibák javításásra
+- a betanítás összegét
+- a dokumentálást
+
+
+A fentiek alapján kalkulát összeg bruttó 1.539.000ft
+
