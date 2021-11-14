@@ -143,31 +143,35 @@ Szükséges:
 - Internet kapcsolat
 - Telepített operációs rendszer
 - Telepített webböngésző
-- Saját webtárhely bérlése
-- Saját domain cím bérlése
 
 ### A cég részéről
 
-- XAMPP feltelepítése
+- Saját webtárhely bérlése
+- Saját domain cím bérlése
 - Webtárhelyen a szükséges konfigurációk beállítása
 
-XAMPP:
+000webhost:
 - Ingyenes webszerver csomag
 - Tartalmazza a MySQL adatbázis szervert
 - Apache webszervert tartalmaz
 - Tartalmazza a PHP és Perl nyelvek végrehajtó rendszereit
-- Nyílt forráskódú(Open source)
 - Ideális kis és közepes vállalatoknak
 - Integrált keretrendszer
 - A csomag tartalmaz mindent, ami a webes alkalmazásokhoz szükséges lehet
-
-
-Webtárhely:
-- Ingyenes webtárhelynek a 000webhostot ajánljuk.
 - A 000webhostnál választható PHP-verziók vannak, köztük naprakészen 
 a legfrissebbek is szerepelnek.
-- Mindemellett a 000webhostnál alapból telepítve van a MySQL adatbázis
-- Tehát az ingyenesek közül inkább a 000webhostot javasoljuk
+
+
+Amennyiben kevés lenne a 000webhost ingyenes csomogja akkor elő lehet
+fizetni egy jobb csomagra, de ajánlott helyette egy magyar szerver használata, 
+mint például:
+    - Hostinger
+    - Elin.hu
+    - Rackforest
+    - Nethely
+    - Magyarhosting
+    - Tárhely.eu
+    - Tárhelypark
 
 
 ##  Fejlesztői eszközök
