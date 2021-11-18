@@ -11,14 +11,14 @@ $(document).ready(function(){
 		
 		for (var i=0;i<tomb.length;i++)
 		{
-			if ((i-1)%3==0)	
+			if (i%3==0)	
 				szoveg+='<div class="row">';
 			szoveg+='<div class="col-sm-4"><div class="filmkeret" id="'+tomb[i].aru_id+'"  data-toggle="modal" data-target="#myModal">';
 			szoveg+='<img class="filmkep" style="height:150px" alt="Nincs feltöltött kép" src="img/'+tomb[i].aru_kep+'" >';
 			szoveg+='<br><div class="filmcimstilus">'+tomb[i].aru_nev+'</div>';
 			//szoveg+='<td><button type="button" id="'+tomb[i].film_id+'"class="btn btn-info btn-lg sajat" data-toggle="modal" data-target="#myModal">Open Modal</button></td>';
 			szoveg+='</div></div>';
-			if ((i-1)%3==2)
+			if (i%3==2)
 				szoveg+='</div>'; 	
 		}
  		

@@ -1,5 +1,4 @@
  <?php
-//echo "hali";
 
 include "../../alap/kapcsolat.php"; 
  
