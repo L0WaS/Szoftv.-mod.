@@ -3,8 +3,7 @@ if (isset($_SESSION["login_nev"]))
 {
 ?>
 <body>
-<center style="color: #757575;font-size: 200%;font-family: 'Open Sans';margin-top: 20px;">Hirdetésfeladás</center>
-<hr>
+
 <div style="color: #000000;" class="row">
 	
 	<div class="row">

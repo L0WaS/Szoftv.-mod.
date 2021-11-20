@@ -9,7 +9,7 @@
 	
 	
 $sql = "INSERT INTO aru
-VALUES ( NULL, $loginid,'sadas', '$bevitel2','$bevitel3','$bevitel6', 'torol'); ";
+VALUES ( NULL, $loginid, '$bevitel2','$bevitel3','$bevitel6'); ";
 $result = mysqli_query($conn, $sql);
 
 $kimenet=0;
