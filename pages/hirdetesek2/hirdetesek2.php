@@ -2,8 +2,6 @@
 if (isset($_SESSION["login_nev"]))
 {
 ?>
-<!--<h1>Dolgozók:</h1>
-<p>This is a paragraph.</p>-->
 
 <div id="tablazat"></div>
 

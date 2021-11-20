@@ -24,17 +24,11 @@ $(document).ready(function(){
 		{
 			var adatok=
 			{
-				//bevitel1:$("#bevitel1").val(),
 				bevitel1:tomb[i].szemely_id
-				
 			}
-			DATA2=0;
-			szoveg+='<tr>';
-			$.post("pages/hirdetesek/lekerdez_decsakegy.php",adatok,function(data2){
-				//alert(data2[0].szemely_id);
-			});
 			
-			szoveg+='<td><img class="filmkep" style="height:150px" alt="Nincs feltöltött kép" src="img/'+tomb[i].aru_kep+'" ></td>';
+			szoveg+='<tr>';
+			szoveg+='<td><img style="height:150px" alt="Nincs feltöltött kép" src="img/'+tomb[i].aru_kep+'" ></td>';
 			szoveg+='<td>'+tomb[i].aru_nev+'</td>';
 			szoveg+='<td>'+tomb[i].leiras+'</td>';
 			szoveg+='<td>'+tomb[i].szemely_nev+'</td>';

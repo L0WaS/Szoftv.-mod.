@@ -4,9 +4,7 @@
 	$loginid=$_SESSION["login_id"];
 	
 	$bevitel2=$_POST["bevitel2"]; 
-	$bevitel3=$_POST["bevitel3"]; 
-	//$bevitel4=$_POST["bevitel4"]; 
-	//$bevitel5=$_POST["bevitel5"]; 
+	$bevitel3=$_POST["bevitel3"];
 	$bevitel6=$_POST["bevitel6"]; 
 	
 	
