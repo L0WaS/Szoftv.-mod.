@@ -9,8 +9,7 @@ if (isset($_SESSION["login_nev"]))
   
   <br>
   
- <!--<input id="jelszofelvitelgomb" type="submit" value="Jelszó módosítása" style="margin:10px">
-  <input id="lakcimfelvitelgomb" type="submit" value="Lakcím módosítása" style="margin:10px">-->
+
   <div id="hiba1"></div>
   
 

@@ -21,7 +21,7 @@
         <?php
         if ($_SESSION["login_rang"]==1)
         {
-          //print' <li><a href="#"><span class="menuszoveg">Admin 1</span> </a></li>';
+          print' <li><a href="./osszeshirdetes"><span class="menuszoveg">Moderálás</span> </a></li>';
           //print' <li><a href="#"><span class="menuszoveg">Admin 2</span> </a></li>';
         }
         ?>

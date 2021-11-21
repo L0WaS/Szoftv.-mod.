@@ -12,8 +12,7 @@ if (mysqli_num_rows($result2) > 0) {
     // output data of each row
 
     while($row = mysqli_fetch_assoc($result2)) {
-        // echo "id: " . $row["jatek_nev"]. " - Name: " . $row["jatek_nev"]. " " . $row["jatek_nev"]. "<br>";
-		array_push($kimenet,$row);
+        array_push($kimenet,$row);
 	}
 	
 	print json_encode($kimenet);
