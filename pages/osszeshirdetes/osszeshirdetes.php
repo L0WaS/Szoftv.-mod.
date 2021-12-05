@@ -1,7 +1,21 @@
 <?php
 if (isset($_SESSION["login_nev"]) && $_SESSION["login_rang"]==1) {
 ?>
-  <div ng-app="myApp" ng-controller="customersCtrl">
+<center><div class="menucim">Moderálás</div></center>
+<style>
+table, th , td  {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+table tr:nth-child(odd) {
+  background-color: #7ea4c95c;
+}
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+</style>
+<center><div class="ng-app" ng-app="myApp" ng-controller="customersCtrl">
     <table>
       <tr ng-repeat="x in names">
         <td>{{ x.aru_nev }}</td>
@@ -10,7 +24,7 @@ if (isset($_SESSION["login_nev"]) && $_SESSION["login_rang"]==1) {
       </tr>
     </table>
 
-  </div>
+  </div></center>
 
   <script>
     var app = angular.module('myApp', []);

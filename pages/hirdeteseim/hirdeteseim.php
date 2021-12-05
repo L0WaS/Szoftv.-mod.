@@ -1,7 +1,21 @@
 <?php
 if (isset($_SESSION["login_nev"])) {
 ?>
-  <div ng-app="myApp" ng-controller="customersCtrl">
+<style>
+table, th , td  {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+table tr:nth-child(odd) {
+  background-color: #7ea4c95c;
+}
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+</style>
+<center><div class="menucim">Hirdetéseim</div></center>
+  <center><div ng-app="myApp" ng-controller="customersCtrl">
     <table>
       <tr ng-repeat="x in names | filter:{ szemely_id: <?php echo $_SESSION["login_id"]; ?> } ">
         <td>{{ x.aru_nev }}</td>
@@ -10,7 +24,7 @@ if (isset($_SESSION["login_nev"])) {
       </tr>
     </table>
 
-  </div>
+  </div></center>
 
   <script>
     var app = angular.module('myApp', []);

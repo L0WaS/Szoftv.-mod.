@@ -4,6 +4,7 @@ if (isset($_SESSION["login_nev"]))
 ?>
 <body>
 
+<center><div class="menucim">Hirdetésfeladás</div></center>
 <div style="color: #000000;" class="row">
 	
 	<div class="row">
@@ -20,9 +21,6 @@ if (isset($_SESSION["login_nev"]))
 				<input style="margin-top:30px" type="submit" value="Véglegesítés" id="gomb">
 
 				<div id="siker"></div>
-				
-				
-				
 			</center>
 		</div>
 		</div>

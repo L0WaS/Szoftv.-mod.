@@ -1,5 +1,5 @@
 
-
+<center><div class="menucim">Hirdetések</div></center>
 
 <div id="tablazat"></div>
 
